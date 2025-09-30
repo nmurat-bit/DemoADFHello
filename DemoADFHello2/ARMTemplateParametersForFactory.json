@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DemoADFHello2"
+		},
+		"SqlServer_ls_connectionString": {
+			"value": ""
+		},
+		"integrationRuntime1_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
+			"value": "demoadfserver.database.windows.net"
+		},
+		"integrationRuntime1_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
+			"value": "adfdb"
+		},
+		"integrationRuntime1_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
+			"value": ""
+		},
+		"sharing-self-IR_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/9539a33b-328d-48fb-bb48-ff2b41373053/resourcegroups/input/providers/Microsoft.DataFactory/factories/DemoADFHello/integrationruntimes/ir-selfhost"
+		}
+	}
+}
