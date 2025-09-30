@@ -1,0 +1,9 @@
+{
+	"name": "DemoADFHello2",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "47013715-2879-4454-8735-07d6618d7240",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Testing purposes",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=demoadfserver.database.windows.net;initial catalog=adfdatabase;user id=adfdb",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjZGEzN2JlMS03MzQxLTRkODgtOWI3Zi0zZmUzMGI4NjgwNDQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "shir-testing",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

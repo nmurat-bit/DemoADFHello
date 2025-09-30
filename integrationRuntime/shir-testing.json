@@ -1,0 +1,7 @@
+{
+	"name": "shir-testing",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "For testing"
+	}
+}
